@@ -5,11 +5,15 @@
 }
 header{
     height: 100px;
-    background-color: black;   
+    background-color: black;
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 .logo{
     height: 80px;
-    
 }
 main{
     height: 100px;
